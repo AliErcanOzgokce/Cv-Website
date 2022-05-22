@@ -12,7 +12,7 @@ export const WorkData = [
       "ballot"
     ],
 
-    demo: "aliercanozgokce.github.io/votefe/",
+    demo: "https://aliercanozgokce.github.io/votefe/",
     github: "https://github.com/AliErcanOzgokce/VotEfe",
     img: "https://camo.githubusercontent.com/fda9d47e584ba6eec0ce4d69f4d79bf44168362321ca8b7315243414eff8ccd3/68747470733a2f2f692e6962622e636f2f7247474b5263462f657a6769662d636f6d2d6769662d6d616b65722e676966",
     side: true,
@@ -24,7 +24,7 @@ export const WorkData = [
       "This smart contract allows you to create wallets with contract accounts. You can receive and send your money and also you can check your wallet balance.",
     tags: ["react", "wallet", "smart-contracts", "ethereum-dapp"],
 
-    demo: "aliercanozgokce.github.io/ozer-wallet/",
+    demo: "https://aliercanozgokce.github.io/ozer-wallet/",
     github: "https://github.com/AliErcanOzgokce/OZER-Wallet",
     img: "https://user-images.githubusercontent.com/78970916/166264888-9e7c6a7f-ac90-4077-a1a1-dd79e797ad3e.gif",
     side: false,
