@@ -1,0 +1,122 @@
+.card-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.reversed {
+  flex-direction: row-reverse;
+}
+.hide {
+  display: none;
+}
+.work-des {
+  color: rgb(214, 214, 214);
+  font-size: clamp(7px, 5px + 3vw, 24px);
+  font-weight: 400;
+  width: 50%;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.width-card {
+  width: 50%;
+}
+.work-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 450px;
+  height: 190px;
+  padding: 1.5rem 2rem;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+.work-img img {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  object-fit: fill;
+  margin-left: 45px;
+  filter: grayscale(0);
+  border-radius: 25px;
+  -webkit-animation: action 1s infinite alternate;
+  animation: projectImg 0.8s infinite alternate ease;
+}
+.work-title {
+  color: black;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  font-family: "panchang";
+}
+.tags {
+  margin-top: 5px;
+  color: #3425ff;
+  margin-bottom: 18px;
+  font-size: calc(0.6em + 0.4vw);
+  font-weight: 400;
+  border-top: 2px solid black;
+  padding-top: 12px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.visit-btn {
+  background-color: black;
+  padding: 9px 50px;
+  width: 20%;
+  font-size: clamp(12px, 8px + 0.8vw, 18px);
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease;
+  letter-spacing: 2px;
+}
+.visit-btn h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.visit-btn:hover {
+  font-weight: 800;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 1px #ffffff;
+  color: black;
+}
+
+@keyframes projectImg {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(-55%);
+  }
+}
+@media screen and (max-width: 720px) {
+  .work-card {
+    width: 100%;
+    height: 80%;
+    padding: 1rem 1.5rem;
+  }
+  .work-title {
+    font-size: 15px;
+  }
+  .visit-btn {
+    padding: 8px 20px 0px 20px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .card-wrap {
+    flex-direction: column;
+  }
+  .work-des {
+    width: 100%;
+  }
+  .width-card {
+    width: 100%;
+  }
+  .work-img img {
+    display: none;
+  }
+}
