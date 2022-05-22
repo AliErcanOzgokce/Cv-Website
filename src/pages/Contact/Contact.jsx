@@ -3,7 +3,6 @@ import "./style.css";
 import { Icon } from "@iconify/react";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import { db } from "../../Firebase";
 import emailjs from "emailjs-com";
 
 const contactContainer = {
@@ -48,23 +47,6 @@ const Contact = () => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
     if (userName !== "" && email !== "" && regex.test(email) !== false) {
       setLoader(true);
-
-      db.collection("connection")
-        .add({
-          name: userName,
-          email: email,
-          message: msg,
-        })
-        .then(() => {
-          setLoader(false);
-          alert(
-            "Thanks For Your Showing interest in my profile😊. It means a lot!💖"
-          );
-        })
-        .catch((error) => {
-          alert(error.message);
-          setLoader(false);
-        });
 
       //emailjs here...
       emailjs
