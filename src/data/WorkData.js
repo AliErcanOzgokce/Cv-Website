@@ -15,10 +15,22 @@ export const WorkData = [
     demo: "https://aliercanozgokce.github.io/VotEfe/",
     github: "https://github.com/AliErcanOzgokce/VotEfe",
     img: "https://camo.githubusercontent.com/fda9d47e584ba6eec0ce4d69f4d79bf44168362321ca8b7315243414eff8ccd3/68747470733a2f2f692e6962622e636f2f7247474b5263462f657a6769662d636f6d2d6769662d6d616b65722e676966",
-    side: true,
+    side: false,
   },
   {
     id: 2,
+    name: "zynep-cli",
+    description:
+      "zynep-cli is token generator for ERC-20 BEP-20 POS-20 blockchain networks",
+    tags: ["erc20", "bep20", "pos20", "token-generator", "cli"],
+
+    demo: "https://aliercanozgokce.github.io/zynep-cli/",
+    github: "https://github.com/AliErcanOzgokce/zynep-cli",
+    img: "https://user-images.githubusercontent.com/78970916/174627621-9293e4a1-9cac-4d32-90a0-9c73e0dd0393.png",
+    side: true,
+  },
+  {
+    id: 3,
     name: "OZER-Wallet",
     description:
       "This smart contract allows you to create wallets with contract accounts. You can receive and send your money and also you can check your wallet balance.",
@@ -30,7 +42,7 @@ export const WorkData = [
     side: false,
   },
   {
-    id: 3,
+    id: 4,
     name: "TrustContribute",
     description: "This project allows you to create fundraising campaigns for projects that haven't been released yet, and let your donors determine how you'll spend the money collected for aid.",
     tags: [
@@ -47,7 +59,7 @@ export const WorkData = [
     side: true,
   },
   {
-    id: 4,
+    id: 5,
     name: "RoseFem",
     description:
       "RoseFem is a tool with which you can randomly generate passwords. It is very simple to use. In the first opening, a menu welcomes you and you can create the desired length and number of passwords by selecting the mode you want.",
@@ -58,5 +70,6 @@ export const WorkData = [
     img: "https://camo.githubusercontent.com/5be7733fba926d73ca06826daa356bdd1d348062d91ea6a10871dc9587b4a7e3/68747470733a2f2f692e6962622e636f2f34526a523358772f6d61696e2d77696e646f772e706e67",
     side: false,
   },
+
 
 ];
