@@ -24,7 +24,7 @@ export const WorkData = [
       "zynep-cli is token generator for ERC-20 BEP-20 POS-20 blockchain networks",
     tags: ["erc20", "bep20", "pos20", "token-generator", "cli"],
 
-    demo: "https://aliercanozgokce.github.io/zynep-cli/",
+    demo: "https://github.com/AliErcanOzgokce/zynep-cli",
     github: "https://github.com/AliErcanOzgokce/zynep-cli",
     img: "https://user-images.githubusercontent.com/78970916/174627621-9293e4a1-9cac-4d32-90a0-9c73e0dd0393.png",
     side: true,
