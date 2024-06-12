@@ -1,5 +1,4 @@
 {
-  "homepage": "https://aliercanozgokce.github.io/Cv-Website/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -23,6 +22,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+    "dev": "react-scripts start",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
